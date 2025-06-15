@@ -1,8 +1,8 @@
 const fileSystem = require("fs");
 
-executeMain();
+main();
 
-function executeMain(){
+function main(){
     let inputLines = readTextFile();
 
     let totalConstraints = countAllConstraints(inputLines);
